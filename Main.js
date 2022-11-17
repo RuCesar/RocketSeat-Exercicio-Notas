@@ -24,7 +24,7 @@ function calcularNota(){
     var notaB = nota>=81 && nota<=90;
     var notaC = nota>=71 && nota<=80;
     var notaD = nota>=61 && nota<=70;
-    var notaE = nota>=51 && nota<=60;
+    var notaE = nota>=51 && nota===60;
     var notaF = nota<=59 && nota>=0;
     
 

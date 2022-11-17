@@ -56,9 +56,8 @@ function calcularNota(){
     
         
     }
+
 }
 
-
 botao.onclick = calcularNota;
-
 

@@ -25,6 +25,7 @@ function calcularNota(){
     var notaC = nota>=71 && nota<=80;
     var notaD = nota>=61 && nota<=70;
     var notaE = nota>=51 && nota<=60;
+    var notaF = nota<=59 && nota>=0;
     
 
     if(notaA){
@@ -46,10 +47,11 @@ function calcularNota(){
         else if(notaE) {
            
             letra.textContent= "E"
-        } else{
+        } else if(notaF){
            
             letra.textContent= "F"
-        }
+        } else{
+            letra.textContent="Inválido"
 
     
         
